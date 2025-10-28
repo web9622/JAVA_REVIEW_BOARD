@@ -35,7 +35,11 @@
 ## 🏗️ 프로젝트 구조 (Package Structure)
 
 프로젝트의 핵심 로직은 역할에 따라 다음 패키지로 분리되어 있습니다.
-(최상위 패키지 이름) ├── domain // 데이터 모델 (Entity/VO) ├── repository // 데이터베이스 접근 및 CRUD 처리 ├── service // 비즈니스 로직 및 트랜잭션 관리 └── controller // 사용자 요청 처리 (입력/출력 관리)
+(최상위 패키지 이름) 
+├── domain // 데이터 모델 (Entity/VO) 
+├── repository // 데이터베이스 접근 및 CRUD 처리 
+├── service // 비즈니스 로직 및 트랜잭션 관리 
+└── controller // 사용자 요청 처리 (입력/출력 관리)
 ---
 
 ## 🚀 환경 설정 및 실행 방법
